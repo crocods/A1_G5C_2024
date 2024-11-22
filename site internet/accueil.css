@@ -1,0 +1,122 @@
+body {
+	color: #000;
+	background: #fff;
+	font-family: basisGrotesque, sans-serif;
+	margin: 0 13%;
+}
+
+/* Barre de navigation */
+
+nav {
+	background-color: #000;
+	display: flex;
+	padding: 2% 2%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav img {
+	width: 100px;
+	height: 70px;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+nav ul a {
+	display: flex;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+nav ul li {
+	text-transform: uppercase;
+	margin-right: 20px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.5s;
+}
+
+nav ul li:hover {
+	color: #3d7ffa;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.o {
+	color:#3d7ffa;
+}
+
+/* Barre de recherche */
+
+.barre {
+	padding: 5%;
+	text-align: center;
+}
+
+.barre input {
+	padding: 2%;
+	text-transform: uppercase;
+	width: 400px;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	transition: 1s;
+	text-align: center;
+	border-radius: 30px;
+	background: #3d7ffa;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Choix */
+
+.choix {
+	display: flex;
+	justify-content: space-between;
+}
+
+.catégories ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.catégories ul li {
+	text-transform: uppercase;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.filtres ul {
+	list-style-type: none;
+}
+
+/* OEUVRES */
+
+.oeuvres {
+	display: flex;
+	justify-content: space-between;
+	padding: 2%;
+}
+
+.oeuvres a {
+	text-decoration: none;
+	color: #000;
+}
+
+.oeuvre1 {
+	background: #3d7ffa;
+}
+
+/* FOOTER */
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #000;
+	color: #fff;
+}
+
+.footer p{
+	padding: 2%;
+}
