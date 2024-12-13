@@ -20,19 +20,21 @@
 	
 	<div class="connexion">
 		<div class="box">
-			<form action="">
+			<form action="traitements.php" method="post">
 				<h1> Se connecter </h1>
 				<div class="input-box">
-					<input type="text" placeholder="Identifiant" required>
+					<input type="text" placeholder="Adresse e-mail" name="mail" required>
 					<img src="../src/user.png">
 				</div>
 				<div class="input-box">
-					<input type="password" class="mdp" placeholder="Mot de passe" required>
+					<input type="password" class="mdp" placeholder="Mot de passe" name="Mot_de_passe" required>
 					<img src="../src/lock.png">
 				</div>
-				<div><button type="submit" class="btn"> Se connecter </button></div>
+				<div><button type="submit" class="btn"> Se connecter </button>
+				<
+				</div>
 				<div class="lien"><a href="#"> Mot de passe oublié ?</a></div>
-				<div class="lien"><a href="../s'inscire/si.html"> S'inscrire </a></div>
+				<div class="lien"><a href="../s'inscire/index.php"> S'inscrire </a></div>
 			</form>
 		</div>
 	</div>
