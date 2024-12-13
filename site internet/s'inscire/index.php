@@ -20,22 +20,34 @@
 	
 	<div class="inscription">
 		<div class="box">
-			<form action="">
+			<form action="traitements.php" method="post">
 				<h1> S'inscrire </h1>
 				<div class="input-box">
-					<input type="email" placeholder="Adresse e-mail" required>
+					<input type="email" placeholder="Adresse e-mail" name = "mail" required>
 					<img src="../src/user.png">
 				</div>
 				<div class="input-box">
-					<input type="text" placeholder="Identifiant" required>
+					<input type="text" placeholder="Adresse" name = "adresse" required>
 					<img src="../src/user.png">
 				</div>
 				<div class="input-box">
-					<input type="password" class="mdp" placeholder="Mot de passe" required>
+					<input type="text" placeholder="nom" name = "nom" required>
+					<img src="../src/user.png">
+				</div>
+				<div class="input-box">
+					<input type="text" placeholder="prenom" name = "prenom" required>
+					<img src="../src/user.png">
+				</div>
+				<div class="input-box">
+					<input type="text" placeholder="num_tel" name = "num_tel"  required>
+					<img src="../src/user.png">
+				</div>
+				<div class="input-box">
+					<input type="password" class="mdp" placeholder="Mot de passe" name = "Mot_de_passe" required>
 					<img src="../src/lock.png">
 				</div>
 				<div><button type="submit" class="btn"> S'inscrire </button></div>
-				<div class="lien"><a href="../se connecter/sc.html"> Se connecter </a></div>
+				<div class="lien"><a href="../se connecter/index.php"> Se connecter </a></div>
 			</form>
 		</div>
 	</div>
