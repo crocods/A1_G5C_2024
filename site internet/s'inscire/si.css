@@ -40,13 +40,13 @@ nav ul li {
 }
 
 nav ul li:hover {
-	color: #3d7ffa;
+	color: #b43f51;
 	text-decoration: none;
 	transition: 0.5s;
 }
 
 .o {
-	color:#3d7ffa
+	color:#b43f51
 }
 
 .inscription {
@@ -59,7 +59,7 @@ nav ul li:hover {
 	text-align: center;
 	padding: 5%;
 	width: 420px;
-	background-color: #3d7ffa;
+	background-color: #b43f51;
 }
 
 .box .input-box {
