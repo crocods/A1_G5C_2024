@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
     <title>Silex</title>
-	<link rel="stylesheet" href="si.css">
+	<link rel="stylesheet" href="sc.css">
 </head>
 
 <body>
@@ -18,35 +18,15 @@
 		</ul>
 	</nav>
 	
-	<div class="inscription">
+	<div class="connexion">
 		<div class="box">
-			<form action="traitements.php" method="post">
-				<h1> S'inscrire </h1>
+			<form action="mail.php" method="post">
+				<h1> Se connecter </h1>
 				<div class="input-box">
-					<input type="email" placeholder="Adresse e-mail" name = "mail" required>
+					<input type="text" placeholder="Adresse e-mail" name="mail" required>
 					<img src="../src/user.png">
 				</div>
-				<div class="input-box">
-					<input type="text" placeholder="Adresse" name = "adresse" required>
-					<img src="../src/user.png">
-				</div>
-				<div class="input-box">
-					<input type="text" placeholder="nom" name = "nom" required>
-					<img src="../src/user.png">
-				</div>
-				<div class="input-box">
-					<input type="text" placeholder="prenom" name = "prenom" required>
-					<img src="../src/user.png">
-				</div>
-				<div class="input-box">
-					<input type="text" placeholder="num_tel" name = "num_tel"  required>
-					<img src="../src/user.png">
-				</div>
-				<div class="input-box">
-					<input type="password" class="mdp" placeholder="Mot de passe" name = "Mot_de_passe" required>
-					<img src="../src/lock.png">
-				</div>
-				<div class="lien"><a href="../se connecter/index.php"> Se connecter </a></div>
+				<div><button type="submit" class="btn"> Réinitialisaer le mot de passe </button></div>
 			</form>
 		</div>
 	</div>

@@ -14,11 +14,15 @@ $conn = new mysqli('localhost', 'root', '', 'enchere_art');
 if (!$conn) {
     die("Connexion échouée : " . mysqli_connect_error());
 }else{
-    echo "connexion réussie";
+    echo "connexion à la base de donné réussie";
 }
 
 $conn->query("INSERT INTO client VALUES ('$mail','$adresse','$nom', '$prenom', '$tel','$MdpClient')");
 $result = $conn->query("SELECT * FROM client");
-
+if (mysqli_num_rows($result)>0){
+    header("Location:../accueil.html");
+}else{
+    echo "erreur";
+}
 mysqli_close($conn);
 ?>

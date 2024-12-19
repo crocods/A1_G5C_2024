@@ -16,7 +16,7 @@ if (empty($mail) || empty($MdpClient)) {
 
     $result = $conn->query ("SELECT * FROM client WHERE mailClient = '$mail' AND MdpClient='$MdpClient'");
     if (mysqli_num_rows($result)>0){
-        echo ;
+        header("Location:../accueil.html");
     } else {
         echo "votre e-mail ou votre mots de Passe est incorrect";
     }
