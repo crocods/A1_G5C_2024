@@ -33,7 +33,7 @@
 				<div><button type="submit" class="btn"> Se connecter </button>
 				<
 				</div>
-				<div class="lien"><a href="#"> Mot de passe oublié ?</a></div>
+				<div class="lien"><a href="../MP oublier/index.php"> Mot de passe oublié ?</a></div>
 				<div class="lien"><a href="../s'inscire/index.php"> S'inscrire </a></div>
 			</form>
 		</div>
